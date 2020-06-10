@@ -1,0 +1,52 @@
+a {
+  text-decoration: none;
+}
+
+#nav-list {
+  display: inline-block;
+}
+
+#top-drawer img {
+  display: none;
+}
+
+#mid-drawer img {
+  display: none;
+}
+
+#top-drawer:hover img {
+  display: inline;
+}
+
+#top-drawer:hover ~ #dresser {
+  display: none;
+}
+
+#mid-drawer:hover img {
+  display: inline;
+}
+
+#mid-drawer:hover ~ #dresser {
+  display: none;
+}
+
+#top-drawer a {
+  z-index:99;
+  position:relative;
+  height:200px;
+  top: 100px;
+  left:30px;
+}
+
+#mid-drawer a {
+  z-index:99;
+  position:relative;
+  height:200px;
+  top: 150px;
+  left:30px;
+}
+
+img {
+  height: 200%;
+  width: 200%;
+}
