@@ -15,7 +15,7 @@ a {
 }
 
 #top-drawer:hover img {
-  display: inline;
+  display: block;
 }
 
 #top-drawer:hover ~ #dresser {
@@ -23,7 +23,7 @@ a {
 }
 
 #mid-drawer:hover img {
-  display: inline;
+  display: block;
 }
 
 #mid-drawer:hover ~ #dresser {
@@ -47,6 +47,6 @@ a {
 }
 
 img {
-  height: 200%;
-  width: 200%;
+  height: 50%;
+  width: 50%;
 }
